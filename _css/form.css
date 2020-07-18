@@ -1,0 +1,144 @@
+@charset "UTF-9";
+
+form{
+    width: 500px;
+    margin: auto;
+}
+
+input, textarea{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, .5);
+    margin-left: 10px;
+}
+
+fieldset:hover, textarea:hover{
+    background-color: rgba(0, 0, 0, .2);
+}
+
+legend{
+    color: #888888;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: sans-serif; 
+}
+
+fieldset{
+    border-color: #cecece;
+    margin-top: 30px;
+}
+
+/* Usuario */
+fieldset#usuario{
+    background: url('../_imagens/icone-contato.png') no-repeat 95% 95%;
+}
+
+input#idNome{
+    margin-left: 15px; 
+}
+input#idEmail{
+    margin-left: 9px; 
+}
+
+input#idSenha{
+    margin-left: 12px; 
+}
+
+input#idMes{
+    margin-left: 0px; 
+}
+
+input#idAno{
+    margin-left: 0px; 
+}
+
+fieldset#sexo legend{
+    color: #000000;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: sans-serif; 
+    margin-left: 20px;
+}
+
+fieldset#sexo{
+    border: none;
+    width: 150px;
+    padding: 0px;
+}
+
+/* Endereco */
+fieldset#endereco{
+    background: url('../_imagens/icone-endereco.png') no-repeat  95% 95%;
+}
+
+p#pRua{
+    margin-left: -10px;
+}
+
+input#idRua{
+    margin-left: 5px;
+}
+
+input#idNum{
+    margin-left: 5px;
+}
+
+select#idEst{
+    margin-left: 10px;
+}
+
+input#idCid{
+    margin-left: 10px;
+}
+
+/* Mensagem */
+fieldset#mensagem{
+    background: url('../_imagens/icone-mensagem.png') no-repeat  95% 95%;
+}
+
+div#pUrg{
+    white-space: nowrap;
+    width: 150px;
+    margin-left: 25px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+}
+
+div#range{
+    float: right;
+    white-space: nowrap;
+    width: 220px;
+    margin: -50px 70px 0px 10px;
+}
+
+fieldset#mensagem textarea{
+    margin-left: 25px;
+}
+
+/* Pedido */
+fieldset#pedido{
+    background: url('../_imagens/icone-pagamento.png') no-repeat  95% 95%;
+}
+
+p#pPed{
+    font-size: 15px;
+}
+
+input#idPed{
+    margin-left: 0px; 
+}
+
+input#idQtd{
+    margin-left: 4px;
+}
+
+fieldset#pedido p{
+    margin-bottom: 25px;
+}
+
+input#idEnviar{
+    background-color: rgba(255, 255, 255, .0);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset = "UTF-8"/>
+	<title>Teste JavaScriptt</title>
+	
+	<script>
+		var quebrada = false;
+		function lampada(resp){
+			
+			if(!quebrada){
+				if(resp == "quebrada"){
+					quebrada = true;
+				}
+				
+				document.getElementById("luz").src = "_imagens/lampada-" + resp + ".jpg";
+				
+			}
+			
+		}
+		
+	</script>
+	
+	<style>
+		body{
+			background-color: #555555;
+		}
+		
+		img{
+			padding-left: 50px;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Acenda a lampada</h1>
+	
+	<img src = "_imagens/lampada-apagada.jpg" id="luz" onmouseenter = "lampada('acesa')" onmouseleave = "lampada('apagada')" onclick = "lampada('quebrada')"/>
+
+</body>
+
+</html>
