@@ -63,6 +63,13 @@ img#icone0{
 	transition: opacity .5s;
 }
 
+img#luz{
+	width: 30px;
+	position: absolute;
+	left: 940px;
+	top: 3px;
+}
+
 /* Cabecalho */
 header#cabecalho{
 	border-bottom: 2px solid #000000;

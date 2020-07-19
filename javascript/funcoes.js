@@ -76,3 +76,18 @@ function total(){
     document.getElementById('idTot').value = tot;
 
 }
+
+var quebrada = false;
+
+function lampada(resp){
+    
+    if(!quebrada){
+        if(resp == "quebrada"){
+            quebrada = true;
+        }
+        
+        document.getElementById("luz").src = "imagens/lampada-" + resp + ".jpg";
+        
+    }
+    
+}

@@ -24,18 +24,27 @@
 	
 	<style>
 		body{
-			background-color: #555555;
+			background-color: #ffffff;
 		}
 		
 		img{
 			padding-left: 50px;
 		}
+
+		img#arrow{
+			padding-left: 0px;
+			width: 25px;
+		}
+
 	</style>
+
 </head>
 
 <body>
-	<h1>Acenda a lampada</h1>
-	
+	<a href="index.html"><img id="arrow" src="imagens/back-arrow.png"></a>
+	<h2>Teste</h2>
+	<h1>Clique na lampada</h1>
+
 	<img src = "imagens/lampada-apagada.jpg" id="luz" onmouseenter = "lampada('acesa')" onmouseleave = "lampada('apagada')" onclick = "lampada('quebrada')"/>
 
 </body>
