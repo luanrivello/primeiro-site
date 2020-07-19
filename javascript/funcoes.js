@@ -79,8 +79,8 @@ function total(){
 
 var quebrada = false;
 
-function lampada(resp){
-    
+function lampada(resp, link){
+
     if(!quebrada){
         if(resp == "quebrada"){
             quebrada = true;
@@ -90,4 +90,8 @@ function lampada(resp){
         
     }
     
+}
+
+function goBack() {
+    window.history.back();
 }

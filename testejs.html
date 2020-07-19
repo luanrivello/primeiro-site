@@ -5,22 +5,7 @@
 	<meta charset = "UTF-8"/>
 	<title>Teste JavaScriptt</title>
 	
-	<script>
-		var quebrada = false;
-		function lampada(resp){
-			
-			if(!quebrada){
-				if(resp == "quebrada"){
-					quebrada = true;
-				}
-				
-				document.getElementById("luz").src = "imagens/lampada-" + resp + ".jpg";
-				
-			}
-			
-		}
-		
-	</script>
+	<script src = "javascript/funcoes.js"></script>
 	
 	<style>
 		body{
@@ -41,11 +26,13 @@
 </head>
 
 <body>
-	<a href="index.html"><img id="arrow" src="imagens/back-arrow.png"></a>
+	<img id="arrow" src="imagens/back-arrow.png" onclick="goBack()">
+	<script> getRetorno(); </script>
+	
 	<h2>Teste</h2>
 	<h1>Clique na lampada</h1>
 
-	<img src = "imagens/lampada-apagada.jpg" id="luz" onmouseenter = "lampada('acesa')" onmouseleave = "lampada('apagada')" onclick = "lampada('quebrada')"/>
+	<img src = "imagens/lampada-apagada.jpg" id="luz" onmouseenter="lampada('acesa')" onmouseleave="lampada('apagada')" onclick="lampada('quebrada')"/>
 
 </body>
 
