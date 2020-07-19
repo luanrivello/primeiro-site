@@ -37,10 +37,6 @@ a{
 	transition: text-decoration 1s;
 }
 
-a:hover{
-	text-decoration: underline;
-}
-
 /* Icone */
 div#icones{
 	width:232px;
