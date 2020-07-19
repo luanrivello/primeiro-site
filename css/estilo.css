@@ -65,9 +65,9 @@ img#icone0{
 
 img#luz{
 	width: 30px;
-	position: absolute;
-	left: 940px;
-	top: 3px;
+	position: relative;
+	left: 860px;
+	top: -148px;
 }
 
 /* Cabecalho */
