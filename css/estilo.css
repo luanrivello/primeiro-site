@@ -5,7 +5,7 @@
 
 @font-face{
 	font-family: 'FonteLogo';
-	src: url("../_fonts/computer-font.ttf");
+	src: url("../fonts/computer-font.ttf");
 }
 
 /* Corpo Da Pagina */
@@ -67,7 +67,7 @@ img#icone0{
 header#cabecalho{
 	border-bottom: 2px solid #000000;
 	height: 150px;
-	background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+	background: url("../imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
 }
 
 header#cabecalho h1{

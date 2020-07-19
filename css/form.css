@@ -31,7 +31,7 @@ fieldset{
 
 /* Usuario */
 fieldset#usuario{
-    background: url('../_imagens/icone-contato.png') no-repeat 95% 95%;
+    background: url('../imagens/icone-contato.png') no-repeat 95% 95%;
 }
 
 input#idNome{
@@ -69,7 +69,7 @@ fieldset#sexo{
 
 /* Endereco */
 fieldset#endereco{
-    background: url('../_imagens/icone-endereco.png') no-repeat  95% 95%;
+    background: url('../imagens/icone-endereco.png') no-repeat  95% 95%;
 }
 
 p#pRua{
@@ -94,7 +94,7 @@ input#idCid{
 
 /* Mensagem */
 fieldset#mensagem{
-    background: url('../_imagens/icone-mensagem.png') no-repeat  95% 95%;
+    background: url('../imagens/icone-mensagem.png') no-repeat  95% 95%;
 }
 
 div#pUrg{
@@ -118,7 +118,7 @@ fieldset#mensagem textarea{
 
 /* Pedido */
 fieldset#pedido{
-    background: url('../_imagens/icone-pagamento.png') no-repeat  95% 95%;
+    background: url('../imagens/icone-pagamento.png') no-repeat  95% 95%;
 }
 
 p#pPed{
